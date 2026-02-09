@@ -1,7 +1,7 @@
 // swift-tools-version: 6.0
 import PackageDescription
 
-let version = "1.0.0"
+let version = "0.1.0"
 let baseURL = "https://github.com/veilbyte/veilbyte-ios-sdk/releases/download/v\(version)"
 
 let package = Package(
@@ -17,17 +17,17 @@ let package = Package(
         .binaryTarget(
             name: "VeilByteCoreBinary",
             url: "\(baseURL)/VeilByteCore.xcframework.zip",
-            checksum: "CHECKSUM_PLACEHOLDER"
+            checksum: "36b18f9bbf59bfd7ab0889c76cc8140ee6354085ab10ad37d891018dd0cfa6f5"
         ),
         .binaryTarget(
             name: "VeilByteAuthBinary",
             url: "\(baseURL)/VeilByteAuth.xcframework.zip",
-            checksum: "CHECKSUM_PLACEHOLDER"
+            checksum: "b3fccb0497957ac9085523aa9e8d630d6b23dba90e8e939e8ab376b1bb07356b"
         ),
         .binaryTarget(
             name: "VeilBytePushBinary",
             url: "\(baseURL)/VeilBytePush.xcframework.zip",
-            checksum: "CHECKSUM_PLACEHOLDER"
+            checksum: "44df255570440b7b1a86347ddd725078939787307002a7814c86cf66c4e5898f"
         ),
 
         // Wrapper targets that re-export binaries and declare inter-module dependencies
