@@ -2,7 +2,7 @@
 import PackageDescription
 
 let version = "0.1.0"
-let baseURL = "https://github.com/veilbyte/veilbyte-ios-sdk/releases/download/v\(version)"
+let baseURL = "https://github.com/Veilbyte-Platforms/veilbyte-ios-sdk/releases/download/v\(version)"
 
 let package = Package(
     name: "VeilByteSDK",
