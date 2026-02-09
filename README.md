@@ -11,14 +11,14 @@ Official iOS SDK for the [VeilByte](https://veilbyte.io) platform. Provides auth
 Add the SDK to your project via Swift Package Manager:
 
 ```
-https://github.com/veilbyte/veilbyte-ios-sdk.git
+https://github.com/Veilbyte-Platforms/veilbyte-ios-sdk.git
 ```
 
 Or add it to your `Package.swift`:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/veilbyte/veilbyte-ios-sdk.git", from: "1.0.0")
+    .package(url: "https://github.com/Veilbyte-Platforms/veilbyte-ios-sdk.git", from: "0.1.0")
 ]
 ```
 
