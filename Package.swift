@@ -16,17 +16,17 @@ let package = Package(
         .binaryTarget(
             name: "VeilByteCore",
             url: "\(baseURL)/VeilByteCore.xcframework.zip",
-            checksum: "7057bf1a9343164909e3107b87cffe10437c4287f5de936d07ea691367fa6e5f"
+            checksum: "f7a70e44cc29b398e0f4815f957b72c0f313d6d5584503d4e693474454595753"
         ),
         .binaryTarget(
             name: "VeilByteAuth",
             url: "\(baseURL)/VeilByteAuth.xcframework.zip",
-            checksum: "3c62f671102f6b988128da6ff632f2681b2899c7644adba0819df0ded2b05fef"
+            checksum: "608d84bc4e2ed56d84e1898a5eec51784f1537e7bd44f26c1fe75208edf63172"
         ),
         .binaryTarget(
             name: "VeilBytePush",
             url: "\(baseURL)/VeilBytePush.xcframework.zip",
-            checksum: "e06a2b85529c90c6e06c27486e91f64159ca3f37a26def28b16559513b4fa3a5"
+            checksum: "8ad0073fa1feb98a3501d8844f4f49503e38a35091c929b22b56d7c3e630eea2"
         ),
     ]
 )
